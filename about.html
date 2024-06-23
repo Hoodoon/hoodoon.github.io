@@ -10,7 +10,7 @@
     .about-container {
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
       margin-top: 50px;
       padding: 20px;
@@ -22,9 +22,8 @@
       flex: 1 1 250px;
       max-width: 250px;
       margin: 20px;
-      border-radius: 95%;
-      border: 5px solid #747474;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      border: none; /* No border for square image */
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
     }
     .bio-text {
       flex: 2 1 400px;
